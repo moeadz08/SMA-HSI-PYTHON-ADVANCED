@@ -1,0 +1,28 @@
+gimana kalo insert ke indeks yang gaada?
+
+gimana kalo append atau extend 2 variabel?
+
+pake .pop = nilai yang diapus bisa jadi variabel
+
+gimana kalo kita gamau jadiin variabel pada .pop?
+
+pake .remove = kalo kita gatau index berapanya, tapi kita tau mana ynag mau diapus
+tapi misalnya ada 2 kata yang sama, dia hanya apus yang pertama saja
+
+pake .sort = kalo mau ngurutin/sortir dari yang terkecil sampe yng terbesar
+pada list yang berantakan
+
+gimana kalo dlm list ada angka dan huruf/karakter?
+
+kalo mau ngurutin scr terbalik, pake reverse=True
+
+kalo .reverse() benar2 akan membalik list yang kita bikin
+tanpa mengurutkan
+
+.sort mengubah variabel asli
+.sorted fungsi
+
+.copy() = untuk nyalin list, sama dengan sciling [:]
+jadi mengcopy sebuah list dan menjadikannya list yang sama sekali berbeda
+memory-nya, kita bisa mengubah apapun ke list copy-an tanpa memengaruhi
+list yang di-copy
