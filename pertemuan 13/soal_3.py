@@ -1,4 +1,4 @@
-nilai_mentah = [55, 63, 72, 81, 90]
+nilai_mentah = [55, 63, 72, 81, 90] 
 print('Nilai asal:',nilai_mentah)
 for i in range(len(nilai_mentah)):
     print(f'\nMenambahkan 5 poin di index {i}...')
