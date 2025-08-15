@@ -1,0 +1,30 @@
+keys = secara eksplisit mengembalikan sebuah objek view yang berisi 
+       semua key dari dictionary
+
+items = mendapatkan pasangan key dan value sekaligus, mereturn 2 value:
+        key dan value(cara terbaik)
+
+tuple tandanya kurung []
+dictionary tandanya {}
+
+.pop(key, default) untuk hapus dictionary
+
+.popitem() hapus key dan value-nya
+
+keyword del = 
+
+.clear()  = menghapus semua item di dictionary
+
+.update() gabungin 2 dictionary, jika ada 2 key yang sama, yang kedua akan
+diganti/diperbarui
+
+nested dictionary = numpuk dictionary
+
+.title() = bikin setiap depan kata jadi kapital
+
+.capitalize() = hanya kata paling depan yang kapital, tdk semua kata
+
+array dan list itu sama, cuman karna di-python nyebutnya list
+
+ketika mau ngitung sebuah kata, logikanya harus dibersihkan dulu dari titik,
+koma, dll

@@ -1,0 +1,19 @@
+dictionary = cara mudah untuk mencari indeks
+ini tidak butuh nyari indeks berapa, tinggal type saja key-nya
+ini case-sensitive
+kalo error jadi KeyError
+
+.get() = cara lebih aman, kalo kita nyari key yang gaada, dia gabakal
+         error, tapi bakal mengembalikan/print 'None'
+         tapi kalo dikasih key yang gaada + kasih default value,
+         nanti print default value
+
+dictionary sifatnya mutable dan bisa ditambah data baru
+
+.len() = 
+
+in = ngecek apakah ada key tersebut apa ngga, berlaku hanya untuk
+ini
+
+histogram untuk cek apakah ada huruf/kata/apapun di dalam value 
+menggunakan for loop
