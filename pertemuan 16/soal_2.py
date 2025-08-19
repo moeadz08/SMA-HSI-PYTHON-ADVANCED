@@ -10,11 +10,11 @@ Buat program manajemen kontak sederhana:
 
 kontak = {}
 
-kontak["Nenek"] = 628888880000
-kontak["Cucu"] = 628000000888
-kontak["Paman"] = 628000000000
+kontak["Nenek"] = '628888880000'
+kontak["Cucu"]  = '628000000888'
+kontak["Paman"] = '628000000000'
 
-kontak["Cucu"] = 447129800987
+kontak["Cucu"]  = '447129800987'
 
 kontak.pop("Paman")
 

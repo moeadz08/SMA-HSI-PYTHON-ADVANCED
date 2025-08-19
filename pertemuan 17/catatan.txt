@@ -1,0 +1,18 @@
+Tuple sama sekali tidak bisa di ubah(immutable)
+
+kalo mau ubah, jadiin copy-an dulu
+
+tuple bisa jadi key
+
+
+contoh_tuple=("apel","pisang","ceri")
+masih_tuple=(1,6,5,4,8)
+sama_aja=
+
+bisa digabung
+
+bisa diulang:  
+print("python","mantap"*2)
+
+DSU:
+    Decorate
