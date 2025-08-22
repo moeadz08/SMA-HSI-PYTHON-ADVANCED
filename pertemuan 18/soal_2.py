@@ -34,5 +34,6 @@ class RekeningBank:
         
 Rekening_Pepeng= RekeningBank(344432, "Pepeng Gepeng")
 Rekening_Pepeng.lihat_saldo()
-Rekening_Pepeng.setor(10000)
+Rekening_Pepeng.setor(50000)
 Rekening_Pepeng.tarik(10000)
+Rekening_Pepeng.lihat_saldo()

@@ -1,0 +1,35 @@
+Regular Expression = Regex
+
+bahasa mini yang berdiri sendiri yang digunakan untuk mendefinisikan 
+pola
+
+untuk menggunakan Regex, kita perlu megimpor modul bawaan "re"
+
+fungsi Regex paling fundamental = re.findall() dan re.search()
+
+re.findall()
+    case sentitive, kalo mau ambil duaduanya(Mobil,mobil), ubah ke lower
+
+    untuk menemukan semua yang cocok, bisa 1 atau lebih
+
+    kekuatan Regex ada pada simbol2 metakarakter
+    .   Titik: Cocok dengan karakter apa pun (kecuali newline) p.thon   python, pathon, p&thon
+    \d  Digit: Cocok dengan karakter angka (0 sampai 9)        \d\d     12, 99, 05
+    \D Non-Digit: Cocok dengan apa pun selain angka            \D       a, , !, Z
+    \w Word Character: Cocok dengan huruf, angka, atau _       \w\w\w   cat, R2D, _1_
+    \W Non-Word Character: Kebalikan dari \w                   \W       !, , @, +
+    \s Whitespace: Cocok dengan spasi, tab, newline            a\sb     a b, a b
+    \S Non-Whitespace: Kebalikan dari                          \s       \S A, !, 1
+
+    biasanya digunakan untuk men-sensor
+
+re.search()
+    abis nemuin katanya, langsung berenti
+
+    hasilnya boolean (ketemu/engga)
+
+    kan hanya match apa engga, berarti harus dibarengi dengan if else?
+
+    yang pake *, contoh ca*t, gimana kalo c dan t nya lebih dari 1?
+
+
