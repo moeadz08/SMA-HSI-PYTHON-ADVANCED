@@ -1,4 +1,5 @@
-"""Latihan 3: re.search() vs. re.findall()
+"""
+Latihan 3: re.search() vs. re.findall()
 Diberikan string teks = "python adalah bahasa yang menyenangkan, python mudah
 dipelajari.".
 1. Gunakan re.search('python', teks). Apa yang dikembalikannya? Cetak .group()-nya.
@@ -12,5 +13,6 @@ teks = "python adalah bahasa yang menyenangkan, python mudah dipelajari."
 match = re.search('python', teks)
 piton = re.findall('python', teks)
 
-print(match)
-print(piton)
+print(match) # span = nyari indeksnya, match = ada apa engga si 'python-nya'
+print(match.group()) # nampilin isinya which is 'pyhton'
+print(piton) # nampilin list python, berapapun jumlahnya

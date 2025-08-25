@@ -11,7 +11,7 @@ perlu menambahkan pengecekan panjang dengan len()).
 
 import re
 
-nomor = (input("masukkan nomor telepon!!: "))
+nomor = (input("masukkan nomor telepon: "))
 pola = r'^\d{10,13}$'
 
 match = re.search(pola, nomor)
@@ -20,7 +20,9 @@ if match:
     print("Objek Match:", match)
     print(f"Substring yang cocok: {match.group()}")
     print(f"Ditemukan di indeks: {match.start()} sampai {match.end()}")
-elif nomor < pola:
+elif len(nomor) < 10:
     print("kurang panjang!")
+elif len(nomor) > 13:
+    print("kurang pendek!")
 else:
     print("Format invalid!")
